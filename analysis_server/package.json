@@ -1,0 +1,16 @@
+{
+  "name": "analysis-server",
+  "version": "1.0.0",
+  "description": "Analysis server for BlocSaviour",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
