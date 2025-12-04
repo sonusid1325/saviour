@@ -1,0 +1,1 @@
+{"endpoints":{"stats":"/api/stats (GET) - Get statistics","threats":"/api/threats (GET) - Get all detected threats"},"ml_enabled":true,"monitoring":"active","service":"Network Threat Analyzer API","status":"online"}

@@ -1,0 +1,9 @@
+Initializing inference pipeline...
+Model 'best_cybersecurity_model.pkl' loaded successfully.
+Inference pipeline ready.
+
+==================================================
+Running Inference Examples...
+==================================================
+
+Processing new request: {'IP': '185.191.171.12', 'Endpoint': '/wp-admin/config.php?action=edit', 'User-Agent': 'python-requests/2.25.1', 'Country': 'RU', 'Date': '2024-10-01 03:15:00'}

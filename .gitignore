@@ -1,0 +1,210 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.history/
+
+# Node.js / JavaScript / TypeScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.env*.local
+.cache/
+
+#python 
+
+.venv/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+*.next
+
+# React / Build Output
+build/
+dist/
+*.js.map
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# Rust / Substrate / Polkadot
+target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+# Keep Cargo.lock for binaries/applications, comment out for libraries
+# Cargo.lock
+
+# Substrate specific
+.substrate/
+chain-data/
+node-data/
+chains/
+db/
+keystore/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Compiled Files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# System Files
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Project Specific
+# Blockchain data
+blocsavior-data/
+chain-data/
+keystore/
+
+# Build artifacts
+*.wasm
+*.contract
+
+# Local development
+.local/
+local/
+
+# BlocSaviour Specific
+blockchain.log
+ddos/server.log
+blocsavior-ui/nextjs.log
+.pids
+nohup.out
+*.nohup
