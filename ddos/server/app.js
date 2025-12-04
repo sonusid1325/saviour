@@ -16,7 +16,7 @@ const BLOCKCHAIN_WS = process.env.BLOCKCHAIN_WS || 'ws://127.0.0.1:9944';
 const ipNFTs = new Map(); // Cache of created IP NFTs
 
 // ML API
-const THREATS_API = process.env.THREATS_API || 'http://10.9.3.147:5050/threats';
+const THREATS_API = process.env.THREATS_API || 'http://10.9.3.166:5050/threats';
 const threatCache = new Map(); // Cache API responses
 
 app.use(cors());
